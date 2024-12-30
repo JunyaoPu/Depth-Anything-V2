@@ -1,0 +1,23 @@
+name: CUDA_Depth
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip=20.3
+  - cudatoolkit=11.3
+  - pytorch=1.11.0
+  - torchvision=0.12.0
+  - numpy=1.19.2
+  - pip:
+    - jupyterlab==4.0.1
+    - opencv-python==4.1.2.30
+    - ipywidgets==8.0.0b
+    - matplotlib==3.7.1
+    - pandas==1.5.2
+    - MLflow == 2.15.0
+    - gradio==4.29.0
+    - gradio_imageslider
+    - xformers
+
